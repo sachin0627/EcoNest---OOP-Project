@@ -4,7 +4,6 @@ import com.econest.interfaces.Manageable;
 import com.econest.util.ValidationUtil;
 
 import java.util.Date;
-
 /**
  * Entity class representing a Product in the EcoNest Catalogue.
  * 
@@ -46,8 +45,7 @@ public class Product implements Manageable {
     }
 
     // --- Business Logic Methods ---
-
-    /**
+  /**
      * Checks if product quantity is at or below its defined reorder threshold.
      * @return true if low stock alert should trigger
      */
